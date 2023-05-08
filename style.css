@@ -323,7 +323,7 @@ nav ul li a:hover::after{
     margin-right: 15px;
     color: #844d8f;
     display: inline-block;
-
+    transition: transform 0.5s;
 }
 
 .social-icons a:hover{
