@@ -78,8 +78,7 @@ nav ul li a:hover::after{
     color:rgb(222, 124, 241);
 }
 
-
-<!--mySkills--!>
+/*------about----- */
 
 
 #about{
@@ -149,9 +148,14 @@ nav ul li a:hover::after{
 
 .tab-contents ul li span{
     color: mediumslateblue;
-    font-size: 14px;
+    font-size: 14px;}
 
+.tab-contents{
+    display: none;
+}
 
+.tab-contents.active-tab{
+    display: block;
 }
 
 <!--myWork-->
